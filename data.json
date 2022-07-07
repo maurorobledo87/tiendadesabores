@@ -1,0 +1,11 @@
+[
+    { "id": 1, "nombre": "hache", "precio": 1500, "img": "imagenes/vino1.jpg"},
+    { "id": 2, "nombre": "corazones", "precio": 850, "img": "imagenes/choco1.jpg"},
+    { "id": 3, "nombre": "macaibo", "precio": 950, "img": "imagenes/cafe1.jpg"},
+    { "id": 4, "nombre": "ginard ballester", "precio": 1500, "img": "imagenes/vino2.jpg" },
+    { "id": 5, "nombre": "cacao 60%", "precio": 850, "img": "imagenes/choco2.jpg"},
+    { "id": 6, "nombre": "camden", "precio": 950, "img": "imagenes/cafe2.jpg" },
+    { "id": 7, "nombre": "antonia ginard", "precio": 1500, "img": "imagenes/vino3.jpg"},
+    { "id": 8, "nombre": "bombones", "precio": 850, "img": "imagenes/choco3.jpg"  },
+    { "id": 9, "nombre": "cabo de horno", "precio": 950, "img": "imagenes/cafe3.jpg" }
+]
