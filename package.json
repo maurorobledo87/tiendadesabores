@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/maurorobledo87/tiendadesabores/issues"
   },
-  "homepage": "https://github.com/maurorobledo87/tiendadesabores#readme"
+  "homepage": "https://github.com/maurorobledo87/tiendadesabores#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }

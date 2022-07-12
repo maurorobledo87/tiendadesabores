@@ -90,7 +90,7 @@ let edad = '';
     let s = document.getElementById("text").value;
 
 
-    fetch('/data.json')
+    fetch('data.json')
       .then( (res) => res.json() )
       .then( (data) => {
         data.forEach((producto) => {
