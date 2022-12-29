@@ -2,18 +2,32 @@
     margin: 0;
     padding: 0;
   }
-  
-  #header{
+  /* .bodi{
+    background-color: rgb(240, 217, 228);
+  } */
+
+  header{
+    margin-bottom: 4%;}
+
+  #primerForm{
     display: flex;
-    width: 100%;
-    justify-content: space-around;
-    background: lightgray;
+    flex-direction: column;
+    align-content: center;
+    padding: 0 29%;
   }
+
+  #header{
+    padding: 3%;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+    display: grid;
+    }
+
+  
   
   .ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-self: center;
+    padding: 3% 0% 0% 0%;
   }
   
   li{
@@ -46,7 +60,7 @@
   .button-55 {
     margin-top: 1%;
     align-self: center;
-    background-color: #fff;
+    background-color: #cca1a178;
     background-image: none;
     background-position: 0 90%;
     background-repeat: repeat no-repeat;
@@ -59,7 +73,7 @@
     color: #41403e;
     cursor: pointer;
     display: inline-block;
-    font-family: Neucha, sans-serif;
+    /* font-family: Neucha, sans-serif; */
     font-size: 1rem;
     line-height: 23px;
     outline: none;
@@ -86,7 +100,7 @@
   
   .toastt{
     background-color: #bfc3c78f;
-    width: 100px;
+    width: 400px;
     border: 1px solid darkgrey;
     position: fixed;
     top: 137px;
@@ -121,7 +135,7 @@
   }
   
   .carrito-img{
-    width: 20px;
+    width: 30px;
   }
   
   .linkCarrito{
@@ -131,11 +145,24 @@
   
   .titulos{
     text-align: center;
-    background-color: lightgray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslategray;
+    font-size: 40px;
+    /* background-color: lightgray; */
+    /* font-family: 'Martian Mono', monospace; */
+    font-family: 'Damion', cursive;
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   }
-  
-  .btnCarrito{
+
+  #btncarrito{
       background: none;
       border: none;
-  }
+      margin-top: 3%;
+      justify-self: center;
+      height: 54%;
+      width: 6%;
+  } 
+
+   #formulario{
+    padding: 1% 34%;
+  } 

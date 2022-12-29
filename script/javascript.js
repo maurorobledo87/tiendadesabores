@@ -18,7 +18,7 @@ let edad = '';
     const eventoFuturo = (res) => {
       return new Promise ((resolve, reject) => {
         setTimeout(() => {
-          res ? resolve('Eres mayor!') : reject('Eres menor. No puedes comprar alcohol.')
+          res ? resolve('Eres mayor! puedes acceder a todos nuestros productos') : reject('Eres menor. No puedes comprar alcohol.')
         }, 2000);
       })
     }
